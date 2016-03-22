@@ -1,0 +1,125 @@
+body{background:url(img/bg.png)}
+
+.panel {
+  box-shadow: 0 2px 0 rgba(0,0,0,0.05);
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 24px;
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel .panel-bg-cover {
+  max-height: 180px;
+  overflow: hidden;
+}
+
+.panel .panel-bg-cover img {
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+}
+
+.panel-media {
+  box-shadow: 0 -50px 20px -10px rgba(0,0,0,0.2);
+  padding: 10px 15px 15px 140px;
+  position: relative;
+}
+
+.panel-media-img {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: 20px;
+  top: -48px;
+}
+
+.img-border-light {
+  box-shadow: 0 0 0 4px #fff;
+}
+
+@media (min-width: 1200px){
+    .text-lg-right {
+      text-align: right;
+    }
+}
+
+.panel-media-heading {
+  color: #fff;
+  position: absolute;
+  top: -2.7em;
+}
+
+.btn-link {
+  border-color: transparent;
+}
+
+.text-muted, a.text-muted:hover, a.text-muted:focus, a.text-muted:focus {
+  color: #606060;
+}
+
+.mar-btm {
+  margin-bottom: 15px;
+}
+
+.panel-body {
+  padding: 25px 20px;
+}
+
+
+
+
+
+
+
+
+
+.config .tab-content .config-one-item{
+  text-align:center;
+  margin-bottom:20px;
+  margin-top:20px;
+  background: rgba(255,255,255,0.9);
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 15px;
+  padding:15px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  animation-duration: 1s;
+    animation-delay:0s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0s;
+    -moz-animation-duration: 1s;
+    -moz-animation-delay:0s;
+    -ms-animation-duration: 1s;
+    -ms-animation-delay: 0s;
+    -o-animation-duration: 1s;    
+    -o-animation-delay: 0s;
+}
+
+.config .tab-content .config-one-item i{
+  font-size:45px;
+}
+
+.config .tab-content .config-one-item h2{
+  font-size:85px;
+  font-weight:normal;
+  margin-bottom:20px;
+  line-height:60px;
+}
+
+.config .tab-content .config-one-item  h4{
+  display:inline;
+  font-family: 'Open Sans', sans-serif;
+  font-size:12px;
+  font-weight:normal;
+  color:#fff;
+  background:#f75353;
+  padding:5px 10px 5px 10px;
+  border-radius:5px;
+}
